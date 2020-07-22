@@ -1,0 +1,4 @@
+%mem=500MW
+%nproc=7
+#p opt=(cartesian,tight,maxcycles=2000) SCF=(YQC,IntRep,MaxConventionalCyc=40,maxcycles=700) NoSymm freq rb3lyp/aug-cc-pVDZ scrf=(cpcm,solvent=water) pop=(Bonding,AllOrbitals,mk,no,nboread)
+

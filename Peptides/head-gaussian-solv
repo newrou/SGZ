@@ -1,0 +1,4 @@
+%mem=500MW
+%nproc=7
+#p opt=(maxcycles=777) freq ub3lyp/aug-cc-pVDZ scrf=(cpcm,solvent=SOLV) pop=(Bonding,AllOrbitals,mk,no,nboread)
+
