@@ -36,7 +36,7 @@ for line in sys.stdin :
 #print mLb
 #print mUb
 for i in range(n) :
-	print '%s; %s; %ld; %8.2f; %6.3f; %8.3f; %8.3f;' % (Target, Ligand, mMod[i], mdG[i], 0.0, mLb[i], mUb[i])
+	print '%s; %s; %ld; %8.2f; %8.6f; %8.3f; %8.3f;' % (Target, Ligand, mMod[i], mdG[i], 0.0, mLb[i], mUb[i])
 
 #mode |   affinity | dist from best mode
 #     | (kcal/mol) | rmsd l.b.| rmsd u.b.
