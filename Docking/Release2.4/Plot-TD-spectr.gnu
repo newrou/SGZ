@@ -1,0 +1,1 @@
+/Oasis/ScienceWork/SGZ/Docking/Plot-TD-spectr.gnu
